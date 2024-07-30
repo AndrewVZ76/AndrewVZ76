@@ -132,7 +132,7 @@ Git сообщит об этом с помощью статуса modified: фа
 
 #### Типичный жизненный цикл файла в Git
 ```mermaid
-flowchart TD;
+graph LR;
 %%A[untracked ] --git add--> B[stage + tracked];
       A[untracked] --git add--> B[stage + tracked];
       С[modified] --git add--> B[stage + tracked];
@@ -142,4 +142,3 @@ flowchart TD;
 ```
 
 ----
-
